@@ -1,7 +1,10 @@
 package main
 
+// Remember to use go tidy to download the dependencies
+
 import (
 	"fmt"
+	"github.com/go-chi/chi/v5" // Import the chi router package.
 	"net/http"
 )
 
